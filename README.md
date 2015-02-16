@@ -1,3 +1,3 @@
 # business-report
 
-This is a code test of multiple different languages
+This is a code sample of multiple different languages I've practiced. I haven't done much.
