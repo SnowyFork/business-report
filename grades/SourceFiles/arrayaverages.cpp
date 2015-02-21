@@ -1,3 +1,5 @@
+//By Chauke A.
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -41,6 +43,7 @@ int main ()
 	return 0;
 }
 
+//get the average
 double rank1(double grades[], double total2, int a, const int fix1)
 {
 	for(a=0; a < fix1; a++)
@@ -52,6 +55,7 @@ double rank1(double grades[], double total2, int a, const int fix1)
 	return total2;
 }
 
+//find highest grade
 double higher (double grades[], int c, const int fix1)
 {
 	double maxed = grades[0];
