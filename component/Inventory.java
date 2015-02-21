@@ -1,3 +1,5 @@
+//by Chauke A.
+
 package component;
 
 import java.io.*;
@@ -14,6 +16,8 @@ public class Inventory extends JFrame
     JTextField inventoryitemfield, deptnumfield, unitcostfield, quantityfield;
     JTextField inventorycostfield;
     JButton calculatebutton;
+    
+    //building the pop-up
     
     public Inventory() 
     {
@@ -97,6 +101,9 @@ public class Inventory extends JFrame
         setSize(700, 350);
         show();
     }
+    
+    //calculations
+    
     public void payments() throws NumberFormatException
     {
         double quantity=0, unitcost=0, inventorycost, backupquantity=0, backupunitcost=0;
@@ -129,6 +136,8 @@ public class Inventory extends JFrame
         
         inventorycostfield.setText(sinventcost);
     }
+    
+    //main
     
     public static void main(String args[]) throws IOException
     {
